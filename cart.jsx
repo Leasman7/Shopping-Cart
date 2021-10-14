@@ -110,7 +110,8 @@ const Products = (props) => {
     let newCart = cart.filter((item, i) => index != i);
     setCart(newCart);
   };
-  const photos = ["apple.png", "orange.png", "beans.png", "cabbage.png"];
+  {/* Random photos from lorem picsum */}
+  const photos = ["https://picsum.photos/200?random=1", "https://picsum.photos/200?random=2", "https://picsum.photos/200?random=3", "https://picsum.photos/200?random="];
 
   let list = items.map((item, index) => {
     //let n = index + 1049;
