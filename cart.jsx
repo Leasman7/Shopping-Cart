@@ -111,11 +111,11 @@ const Products = (props) => {
     setCart(newCart);
   };
   {/* Random photos from lorem picsum */}
-  const photos = ["https://picsum.photos/200?random=1", "https://picsum.photos/200?random=2", "https://picsum.photos/200?random=3", "https://picsum.photos/200?random="];
+  const photos = ["apple.png", "orange.png", "beans.png", "cabbage.png"];
 
   let list = items.map((item, index) => {
-    //let n = index + 1049;
-    //let url = "https://picsum.photos/id/" + n + "/50/50";
+    let n = index + 1049;
+    let url = "https://picsum.photos/id/" + n + "/50/50";
 
     return (
       <li key={index}>
